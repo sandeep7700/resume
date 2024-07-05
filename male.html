@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Male Exercises Schedule - FitOnline Gym</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1f1e1e;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            box-shadow: 0px 0px 2px 0px white;
+        }
+        
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        
+        header #branding {
+            float: left;
+        }
+        
+        header #branding h1 {
+            margin: 0;
+        }
+        
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        
+        header .highlight,
+        header .current a {
+            color: #fcf9f9;
+            font-weight: bold;
+        }
+        
+        header a:hover {
+            color: #f7f3f3;
+            font-weight: bold;
+        }
+
+        ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+    ul li:hover{
+    background-color: rgb(41, 40, 40);
+    color: rgb(247, 246, 246);
+}
+
+.dropdown{
+    display: none;
+    text-decoration: none;
+}
+
+ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    margin-left: -0.29cm;
+    margin-top: 0.27cm;
+    text-decoration: none;
+}
+
+.dropdown ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.dropdown ul li{
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown ul li a{
+    color: #333;
+    background-color: #fff;
+    text-decoration: none;
+}
+        
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+            box-shadow: 0px 0px 0px 2px  white;
+        }
+        
+        .schedule {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        
+        .day {
+            background: #000000;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .day h3 {
+            margin-top: 0;
+        }
+        
+        .day ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .day li {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Workout Coach</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li>Gender
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="male.html"target="_blank">Male</a></li>
+                                <li><a href="female.html"target="_blank">Female</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="about.html" target="_blank">About</a></li>
+                    <li><a href="contect.html" target="_blank">Contact</a><li></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h2>Male Exercises Schedule</h2>
+            <p>Follow this day-by-day schedule to achieve your fitness goals.</p>
+            <div class="schedule">
+                <div class="day">
+                    <h3>Monday</h3>
+                    <ul>
+                        <li>Chest Workout</li>
+                        <li>Bench Press - 4 sets of 8 reps</li>
+                        <li>Incline Dumbbell Press - 3 sets of 10 reps</li>
+                        <li>Push-ups - 3 sets of 15 reps</li>
+                    </ul>
+                </div>
+                <div class="day">
+                    <h3>Tuesday</h3>
+                    <ul>
+                        <li>Back Workout</li>
+                        <li>Pull-ups - 4 sets of 8 reps</li>
+                        <li>Deadlift - 3 sets of 10 reps</li>
+                        <li>Lat Pulldowns - 3 sets of 12 reps</li>
+                    </ul>
+                </div>
+                <div class="day">
+                    <h3>Wednesday</h3>
+                    <ul>
+                        <li>Leg Workout</li>
+                        <li>Squats - 4 sets of 10 reps</li>
+                        <li>Leg Press - 3 sets of 12 reps</li>
+                        <li>Lunges - 3 sets of 15 reps</li>
+                    </ul>
+                </div>
+                <div class="day">
+                    <h3>Thursday</h3>
+                    <ul>
+                        <li>Shoulder Workout</li>
+                        <li>Shoulder Press - 4 sets of 8 reps</li>
+                        <li>Lateral Raises - 3 sets of 12 reps</li>
+                        <li>Front Raises - 3 sets of 12 reps</li>
+                    </ul>
+                </div>
+                <div class="day">
+                    <h3>Friday</h3>
+                    <ul>
+                        <li>Arm Workout</li>
+                        <li>Bicep Curls - 4 sets of 10 reps</li>
+                        <li>Tricep Dips - 3 sets of 12 reps</li>
+                        <li>Hammer Curls - 3 sets of 15 reps</li>
+                    </ul>
+                </div>
+                <div class="day">
+                    <h3>Saturday</h3>
+                    <ul>
+                        <li>Cardio & Core</li>
+                        <li>Running - 30 minutes</li>
+                        <li>Planks - 3 sets of 1 minute</li>
+                        <li>Russian Twists - 3 sets of 20 reps</li>
+                    </ul>
+                </div>
+                <div class="day">
+                    <h3>Sunday</h3>
+                    <ul>
+                        <li>Rest Day</li>
+                        <li>Light Stretching</li>
+                        <li>Foam Rolling</li>
+                        <li>Relaxation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="copyright">
+            &copy; 2024 Online Gym. All rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-by-Day Exercise Schedule - FitOnline Gym</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1f1e1e;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            box-shadow: 0px 0px 2px 0px white;
+        }
+        
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        
+        header #branding {
+            float: left;
+        }
+        
+        header #branding h1 {
+            margin: 0;
+        }
+        
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        
+        header .highlight,
+        header .current a {
+            color: #fcf9f9;
+            font-weight: bold;
+        }
+        
+        header a:hover {
+            color: #fcf7f7;
+            font-weight: bold;
+        }
+
+        ul li{
+
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+    ul li:hover{
+        background-color: rgb(41, 40, 40);
+        color: rgb(247, 246, 246);
+}
+
+.dropdown{
+    display: none;
+    text-decoration: none;
+}
+
+ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    margin-left: -0.29cm;
+    margin-top: 0.27cm;
+    text-decoration: none;
+}
+
+.dropdown ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.dropdown ul li{
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown ul li a{
+    color: #333;
+    background-color: #fff;
+    text-decoration: none;
+}
+        
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+            box-shadow: 0px 0px 0px 2px  white;
+        }
+        
+        .schedule {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        
+        .day {
+            background: #000000;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .day h3 {
+            margin-top: 0;
+        }
+        
+        .day ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .day li {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Workout Coach</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>Gender
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="male.html"target="_blank">Male</a></li>
+                                <li><a href="female.html"target="_blank">Female</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="about.html" target="_blank">About</a></li>
+                    <li><a href="contect.html" target="_blank">Contact</a><li></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h2>Day-by-Day Exercise Schedule</h2>
+            <p>Follow this detailed day-by-day exercise schedule to stay fit and healthy:</p>
+
+            <div class="day-section">
+                <h3>Monday</h3>
+                <div class="exercise">
+                    <strong>Cardio:</strong> Running or Cycling - 30 minutes
+                </div>
+                <div class="exercise">
+                    <strong>Core Workout:</strong> Planks, Crunches, Leg Raises - 15 minutes
+                </div>
+            </div>
+
+            <div class="day-section">
+                <h3>Tuesday</h3>
+                <div class="exercise">
+                    <strong>Strength Training:</strong> Upper Body
+                </div>
+                <ul>
+                    <li>Push-ups - 3 sets of 12 reps</li>
+                    <li>Dumbbell Shoulder Press - 3 sets of 12 reps</li>
+                    <li>Bicep Curls - 3 sets of 15 reps</li>
+                    <li>Tricep Dips - 3 sets of 12 reps</li>
+                </ul>
+            </div>
+
+            <div class="day-section">
+                <h3>Wednesday</h3>
+                <div class="exercise">
+                    <strong>Yoga:</strong> Full Body Stretching - 60 minutes
+                </div>
+            </div>
+
+            <div class="day-section">
+                <h3>Thursday</h3>
+                <div class="exercise">
+                    <strong>Strength Training:</strong> Lower Body
+                </div>
+                <ul>
+                    <li>Squats - 3 sets of 15 reps</li>
+                    <li>Lunges - 3 sets of 12 reps per leg</li>
+                    <li>Deadlifts - 3 sets of 12 reps</li>
+                    <li>Leg Press - 3 sets of 15 reps</li>
+                </ul>
+            </div>
+
+            <div class="day-section">
+                <h3>Friday</h3>
+                <div class="exercise">
+                    <strong>HIIT:</strong> High-Intensity Interval Training - 30 minutes
+                </div>
+                <ul>
+                    <li>Jumping Jacks - 1 minute</li>
+                    <li>Burpees - 1 minute</li>
+                    <li>High Knees - 1 minute</li>
+                    <li>Rest - 1 minute</li>
+                    <li>Repeat 5 times</li>
+                </ul>
+            </div>
+
+            <div class="day-section">
+                <h3>Saturday</h3>
+                <div class="exercise">
+                    <strong>Full Body Workout:</strong> 45 minutes
+                </div>
+                <ul>
+                    <li>Push-ups - 3 sets of 12 reps</li>
+                    <li>Squats - 3 sets of 15 reps</li>
+                    <li>Planks - 3 sets of 1 minute</li>
+                    <li>Burpees - 3 sets of 12 reps</li>
+                </ul>
+            </div>
+
+            <div class="day-section">
+                <h3>Sunday</h3>
+                <div class="exercise">
+                    <strong>Rest Day:</strong> Take a break and let your body recover!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="copyright">
+            &copy; 2024 Online Gym. All rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>

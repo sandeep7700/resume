@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("backk.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.left{
+    font-size: 2rem;
+    margin-left: -40px;
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 6px;
+    margin-left: -470px;
+}
+
+.right{
+    font-size: 1.5rem;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(43, 40, 40);
+    box-shadow: 0px 0px 4px 0px white;
+}
+
+.right ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.right ul li:hover{
+    background-color: rgb(128, 119, 119);
+    color: aliceblue;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    
+}
+
+.leftt img{
+    height:450px;
+    width: 500px;
+    margin-left:8% ;
+    margin-top:8% ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 2px white;
+}
+
+.rightt img{
+    height: 450px;
+    width: 500px;
+    margin-left: 62.5%;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 2px white;
+}
+
+.leftt h1{
+    margin-left: 680px;
+    margin-top: -550px;
+    color: black;
+}
+
+.leftt h1:hover{
+    background-color: black;
+    color: white;
+}
+
+.leftt p{
+    margin-left: 680px;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.leftt p:hover{
+    background-color: black;
+    color: white;
+}
+
+.rightt h2{
+    margin-left: 150px;
+    margin-top: -425px;
+    color: black;
+}
+
+.rightt p{
+    margin-left: 60px;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.rightt h2:hover{
+    background-color: black;
+    color: white;
+}
+
+.rightt p:hover{
+    background-color: black;
+    color: white;
+}
